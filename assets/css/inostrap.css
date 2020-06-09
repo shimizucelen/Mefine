@@ -1,0 +1,191 @@
+/*tags*/
+body {
+	line-height: 2.0;
+	word-break: break-all;
+	color: #1F3900;
+	font-family: 'Noto Serif JP', serif;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+a {
+	color: #1F3900;
+}
+a:hover {
+	color: ;
+	font-size: 105%;
+}
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1.5;
+}
+.fAccent {
+	font-family: 'Dancing Script', cursive;
+}
+img {
+	max-width: 100%;
+	object-fit: cover;
+}
+small {
+	font-size: 50%;
+}
+
+/*originalClassTemplates*/
+.fullScreen {
+	height: 100vh;	
+	width: 100vw;
+}
+.fullScreen50 {
+	height: 50vh;	
+	width: 100vw;
+}
+.fullScreen70 {
+	height: 70vh;	
+	width: 100vw;
+}
+.bkCover {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.color1 {
+	color: #777D70;
+}
+.color2 {
+	color: #BCD487;
+}
+.color3 {
+	color: #F8F6E6;
+}
+.color4 {
+	color: #DFDDC5;
+}
+.color5 {
+	color: #1F3900;
+}
+.color6 {
+	color: ;
+}
+.colorWhite {
+	color: #ffffff;
+}
+.bk1 {
+	background-color: #777D70;
+}
+.bk2 {
+	background-color: #BCD487;
+}
+.bk3 {
+	background-color: #F8F6E6;
+}
+.bk4 {
+	background-color: #DFDDC5;
+}
+.bk5 {
+	background-color: #1F3900;
+}
+.bk6 {
+	background-color: ;
+}
+.bkWhite {
+	background-color: #ffffff;
+}
+.bkGra {
+	background: linear-gradient(120deg, #F7CF3B, #89C7E7);
+}
+
+/*originalClass*/
+.mw {
+	max-width: 700px;
+	margin: auto;
+}
+.mwM {
+	max-width: 1000px;
+	margin: auto;
+}
+.radiusS {
+	border-radius: 10px;
+}
+.radiusM {
+	border-radius: 20px;
+}
+.radiusL {
+	border-radius: 100px;
+}
+.shadowBlack {
+	box-shadow: 5px 5px 15px #00000024;
+}
+.shadowPurple {
+	box-shadow: 5px 5px 15px #794ca2ab;
+}
+.mhS {
+	min-height: 400px;
+}
+.mhM {
+	min-height: 500px;
+}
+.mhL {
+	min-height: 700px;
+}
+.ctaBtn {
+	display: block;
+	padding: 15px 40px;
+}
+.absolute-bottom {
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
+}
+.overlay1::before{
+	/*background: linear-gradient(230deg, #bcd48700, #bcd487);*/
+	background: linear-gradient(230deg, #bcd48700, #5f5f5fb8);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+	z-index: 79;
+}
+.overlayBlack::before{
+	background: linear-gradient(#00000000, #0000006b);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+	z-index: 79;
+}
+.overlayGreen::before{
+	background: linear-gradient(230deg, #bcd48773, #bcd487);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+	z-index: 79;
+}
+.overlayChild {
+	position: relative;
+	z-index: 80;
+	width: 100%;
+}
+.pointer {
+	cursor: pointer;
+	font-size: 105%;
+}
+.pointer:hover {
+	font-size: 105%;
+}
+.bold {
+	font-weight: bold;
+}
+.verticalText {
+	writing-mode: vertical-rl;
+}
